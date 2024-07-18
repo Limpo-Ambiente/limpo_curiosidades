@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="curiosidades.css">
+    <script src="https://kit.fontawesome.com/6bda94a8de.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/img/icon.png">
+    <title>Curiosidades</title>
+</head>
+
+<body>
+    <header>
+        <!--order 1-->
+        <div class="logos">
+            <a href="/index.html"><img class="logoBgWhite" src="/img/logo.png" alt="">
+            <img class="logoBgBlack" src="/img/logo2.png" alt=""></a>
+        </div>
+
+        <!--order 2-->
+        <nav id="menu">
+            <ul id="imenu-list" class="menu-list">
+                <li><a href="/pag_ind/lixo_industrial.html">Sobre nós</a></li>
+                <li><a href="#">Curiosidades</a></li>
+                <li><a href="#">Campanhas</a></li>
+            </ul>
+            <script>
+
+                var menuButton = document.getElementById("menu-btn");
+                var menu = document.getElementById("menu");
+
+                menu.style.transition("2s");
+
+                function showmenu() {
+                    if (menu.style.display === "none") {
+                        menu.style.display = "block";
+                    } else {
+                        menu.style.display = "none";
+                    }
+                };
+
+            </script>
+        </nav>
+
+        <!--order 3-->
+        <div class="dark_btn">
+            <input type="checkbox" name="#" id="toggle" class="toggle-btn">
+            <label for="toggle" class="toggle-label" id="change">
+                <i id="sun" class="fa-solid fa-cloud-sun"></i>
+                <i id="moon" class="fa-solid fa-moon"></i>
+            </label>
+
+            <script>
+                const toggleBtn = document.getElementById('toggle');
+                const body = document.body;
+
+                toggleBtn.addEventListener('click', function () {
+                    body.classList.toggle('dark')
+                });
+            </script>
+        </div>
+
+        <!--order 4-->
+        <button onclick="showmenu()" id="menu-btn"><i class="fa-solid fa-water"></i></button>
+    </header>
+
+    <main>
+        <h1>Curiosidades e Notícias</h1>
+
+        <div class="container">
+
+            <a href="https://mundoeducacao.uol.com.br/biologia/oceano-plastico-triste-realidade.htm">
+                <div class="content"> 
+                    <p class="icon_artigo">Artigo</p>
+                    <img src="https://www.timeforkids.com/wp-content/uploads/2021/07/turtle1.jpg?w=1024" alt="">
+                    <h3>Oceano de Plástico</h3>
+                    <p>Este artigo do Mundo Educação, fala como itens de plástico como garrafas PET, papel filme, sacolas, copos e embalagens são convenientes e duráveis, mas também destaca o impacto ambiental negativo desses produtos. A mensagem central é... <strong>Ler mais</strong><!--a necessidade de reconsiderar nossos hábitos de consumo devido ao alto custo ambiental dessas vantagens.--></p> 
+                </div>
+            </a>
+
+            <a href="https://www.iberdrola.com/sustentabilidade/desmatamento-amazonas">
+                <div class="content">
+                    <p class="icon_artigo">Artigo</p>
+                    <img src="https://imazon.org.br/wp-content/uploads/2023/02/Greenpeace-Daniel-Beltra.jpg" alt="">
+                    <h3>Amazônia e Desmatamento</h3>
+                    <p>O texto discute a perda significativa da floresta amazônica, conhecida como o "pulmão do mundo". Desde 1970, uma área maior que o tamanho da França foi desmatada, principalmente devido a atividades humanas. A destruição da Amazônia... <strong>Ler mais</strong><!--tem consequências graves para o planeta e para a humanidade. O texto também aborda fatos preocupantes sobre a situação atual da floresta e apresenta possíveis soluções para mitigar o desmatamento e preservar esse ecossistema vital.--></p>
+                </div>
+            </a>
+
+            <a href="https://brasilescola.uol.com.br/geografia/agua.htm">
+                <div class="content">
+                    <p class="icon_artigo">Artigo</p>
+                    <img src="https://portalefood.com.br/wp-content/uploads/2024/02/49701057603_4335c548af_k.jpg"
+                        alt="">
+                    <h3>Planeta Água</h3>
+                    <p>Este texto destaca a importância da água para a sobrevivência humana e sua presença tanto no planeta quanto no corpo humano. Ressalta que a água é essencial para atividades como a agricultura e é amplamente usada como solvente universal. Inicialmente... <strong>Ler mais</strong><!--vista como um recurso inesgotável, a água passou a ser considerada uma mercadoria valiosa, o que gerou conflitos relacionados ao seu uso inadequado, desperdício e distribuição desigual. O texto também menciona que a disponibilidade de água é um tema recorrente em discussões ambientais e geopolíticas.--></p>
+                </div>
+            </a>
+
+            <a href="https://g1.globo.com/jornal-nacional/noticia/2024/05/10/especialistas-dizem-o-que-pode-ser-feito-para-evitar-desastres-como-o-que-assola-o-rio-grande-do-sul.ghtml">
+                <div class="content">
+                    <p class="icon_noticia">Notícia</p>
+                    <img src="https://img.dhost.cloud/IhFcxvdmQOEnrLCgVfmOLq5DhxA=/840x520/smart/s3.tribunadosertao.com.br/uploads/imagens/chuvas-no-rio-grande-do-sul1-0.webp" alt="">
+                    <h3>Desastre Ambiental no RS</h3>
+                    <p>A vulnerabilidade do Rio Grande do Sul às mudanças climáticas devido à sua geografia. Especialistas sugerem medidas para evitar desastres, enfatizando a necessidade de estender a proteção da capital para outras regiões... <strong>Ler mais</strong><!--, a fim de não sobrecarregar as defesas já existentes.--></p>
+                </div>
+            </a>
+
+            <a href="https://brasilescola.uol.com.br/geografia/efeito-estufa.htm">
+                <div class="content">
+                    <p class="icon_artigo">Artigo</p>
+                    <img src="https://images.educamaisbrasil.com.br/content/banco_de_imagens/guia-de-estudo/D/o-efeito-estufa-mantem-a-temperatura-media-da-terra.jpg" alt="">
+                    <h3>Efeito Estufa</h3>
+                    <p>O efeito estufa é essencial para a vida na Terra, pois mantém as temperaturas médias globais estáveis, permitindo o desenvolvimento dos seres vivos. No entanto, as atividades... <strong>Ler mais</strong><!--  humanas têm aumentado a emissão de gases de efeito estufa causando mudanças climáticas globais. A alta concentração desses gases impede que o calor retorne ao espaço, resultando no aumento das temperaturas do planeta..--></p>
+                </div>
+            </a>
+
+            <a href="https://brasilescola.uol.com.br/geografia/florestas.htm">
+                <div class="content">
+                    <p class="icon_artigo">Artigo</p>
+                    <img src="https://veja.abril.com.br/wp-content/uploads/2023/11/GettyImages-1446305840-e1699975812421.jpg?quality=90&strip=info&w=720&h=440&crop=1" alt="">
+                    <h3>Florestas</h3>
+                    <p>As florestas são ecossistemas vastos e diversos, caracterizados por árvores de copa alta que formam um dossel. Cobrem aproximadamente um terço da superfície terrestre e metade do território brasileiro. Sua importância é crucial... <strong>Ler mais</strong><!--para a biodiversidade, o equilíbrio climático e para as populações que dependem de seus recursos.--></p>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <img src="/pag_ind/fotos/logo_black_and_white.png" alt="" height="120px">
+        <hr>
+        <div class="tudo">
+            <div class="voltar">
+                <h3>Volte para:</h3>
+
+                <a href="#top">Topo&uarr;</a>
+                <a href="/index.html">Home</a>
+            </div>
+
+            <div class="referencias">
+                <h3>Referências da Página:</h3>
+                <a href="https://brasilescola.uol.com.br/">Brasil Escola</a>
+                <a href="https://mundoeducacao.uol.com.br/">Mundo Educação</a>
+                <a href="https://www.iberdrola.com/pagina-inicial">Iberdrola</a>
+                <a href="https://g1.globo.com/">G1.globo</a>    
+            </div>
+
+            <div class="links_rapidos">
+                <h3>Links Rápidos</h3>
+                <a href="#">Siga nosso linktree</a>
+                <a href="#">Sobre nós</a>
+                <a href="#">Curiosidades</a>
+                <a href="#">Campanhas</a>
+            </div>
+        </div>
+
+        <p>&copy;2024 Desenvolvido por Limpo Ambiente</p>
+    </footer>
+
+</body>
+
+</html>
