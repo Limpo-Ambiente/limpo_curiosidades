@@ -22,7 +22,8 @@ body{
 header {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 5rem;
     align-items: center;
     box-shadow: -1px -8px 40px #0000006e;
     height: 100px;
@@ -57,10 +58,19 @@ header {
             display: none;
         }
 
+        .dark .logoBgWhite {
+            display: none;
+        }
+
+        .dark .logoBgBlack {
+            display: grid;
+        }
+
     /*-----------------/LOGOS-----------------*/
 
     nav {
-        margin-left: 40px;
+       
+        margin-right: 3%;
         font-size: 23px;
         display: flex;
     }
@@ -70,7 +80,9 @@ header {
     }
 
     .menu-list {
+     
         display: flex;
+        gap: 70px;
 
         a {
             text-decoration: none;
@@ -87,6 +99,7 @@ header {
             list-style: none;
         }
     }
+
 
     /*-----------------DARK-MODE-BTN-----------------*/
         .dark_btn {
